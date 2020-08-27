@@ -1,0 +1,123 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>User_Login_Servlet</servlet-name>
+  	<display-name>User_Login_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa_Inventory_delivery.controller.User_Login_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserServlet</servlet-name>
+  	<display-name>UserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa_Inventory_delivery.controller.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserLogin_Servlet</servlet-name>
+  	<display-name>UserLogin_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa_Inventory_delivery.controller.UserLogin_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddGoodServlet</servlet-name>
+  	<display-name>AddGoodServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa_Inventory_delivery.crud.AddGoodServlet</servlet-class>
+  </servlet>
+
+  
+
+  <servlet>
+  	<servlet-name>DeleteGoodServlet</servlet-name>
+  	<display-name>DeleteGoodServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa_Inventory_delivery.crud.DeleteGoodServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DummySErvlet</servlet-name>
+  	<display-name>DummySErvlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa_Inventory_delivery.crud.DummySErvlet</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>Edit_Good_Servlet</servlet-name>
+  	<display-name>Edit_Good_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa_Inventory_delivery.crud.Edit_Good_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Delivery_Login_Servlet</servlet-name>
+  	<display-name>Delivery_Login_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa_Inventory_delivery.controller.Delivery_Login_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Delivery_Boy_Servlets</servlet-name>
+  	<display-name>Delivery_Boy_Servlets</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa_Inventory_delivery.crud.Delivery_Boy_Servlets</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Delivery_Status_Servlet</servlet-name>
+  	<display-name>Delivery_Status_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa_Inventory_delivery.crud.Delivery_Status_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>pen_delivery_servlet</servlet-name>
+  	<display-name>pen_delivery_servlet</display-name>
+  	<description></description>
+  	<servlet-class>com.virtusa_Inventory_delivery.crud.pen_delivery_servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>User_Login_Servlet</servlet-name>
+  	<url-pattern>/User_Login_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserServlet</servlet-name>
+  	<url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddGoodServlet</servlet-name>
+  	<url-pattern>/AddGoodServlet</url-pattern>
+  </servlet-mapping>
+
+  
+  <servlet-mapping>
+  	<servlet-name>DeleteGoodServlet</servlet-name>
+  	<url-pattern>/DeleteGoodServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>DummySErvlet</servlet-name>
+  	<url-pattern>/DummySErvlet</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+  	<servlet-name>Edit_Good_Servlet</servlet-name>
+  	<url-pattern>/Edit_Good_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Delivery_Login_Servlet</servlet-name>
+  	<url-pattern>/Delivery_Login_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Delivery_Boy_Servlets</servlet-name>
+  	<url-pattern>/Delivery_Boy_Servlets</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Delivery_Status_Servlet</servlet-name>
+  	<url-pattern>/Delivery_Status_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>pen_delivery_servlet</servlet-name>
+  	<url-pattern>/pen_delivery_servlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
